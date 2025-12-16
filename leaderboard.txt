@@ -1,4 +1,3 @@
-Charlie Kirk - 74.61 WPM
 Random - 62.13 WPM
 Test - 55.93 WPM
 hi - 46.03 WPM
@@ -10,3 +9,4 @@ jokeul sabarinath nair - 44.97 WPM
 jokeul sabarinath nair - 43.26 WPM
 jokeul sabarinath nair - 11.67 WPM
 Divy - 60.90 WPM
+
