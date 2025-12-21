@@ -29,6 +29,7 @@ TEXT = random.choice(sentences)
 
 LEADERBOARD_FILE = "leaderboard.txt"
 
+#Not using pictures in final code
 #SLOW_IMG   = r"C:\Users\itz9x\OneDrive\Pictures\Saved Pictures\slow.png"
 #MEDIUM_IMG = r"C:\Users\itz9x\OneDrive\Pictures\Saved Pictures\medium.png"
 #FAST_IMG   = r"C:\Users\itz9x\OneDrive\Pictures\Saved Pictures\fast.png"
@@ -110,7 +111,7 @@ name_entry.pack(pady=5)
 
 tk.Label(root, text="Type this sentence:").pack()
 
-# Use label so we can update the sentence
+
 sentence_display = tk.Label(root, text=TEXT, fg="blue")
 sentence_display.pack(pady=5)
 
@@ -135,4 +136,5 @@ meme_label.pack(pady=10)
 update_leaderboard_display()
 
 root.mainloop()
+
 
