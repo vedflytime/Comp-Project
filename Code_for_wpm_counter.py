@@ -4,13 +4,26 @@ import os
 import random
 from PIL import Image, ImageTk
 
-sentences = [    "Granny in heaven, I’m higher than her, broke my heart so I went to the bank",
-    "The quick brown fox jumps over the lazy dog\no",
-    "Hard work beats talent when talent doesn’t work hard",
-        "Practice typing daily to improve your speed and accuracy",
-    "I love snowbunnies and they dont love me",
-    """The pelagic argosy sights the deep
-o"""]
+sentences = [   """When negotiation and compromise fail, then
+your only course is to destroy your enemy. Before
+they wake in the morning, have the axe in your hand.""",
+"""For although a man is judged by his actions, by what he has said and done, a man judges
+himself by what he is willing to do, by what he might
+have said, or might have done – a judgment that is necessarily hampered,
+bot only by the scope and limits of his imagination, but by the ever-changing
+measure of his doubt and self-esteem.""",
+"""Happiness was different in childhood. It was so much then a matter
+simply of accumulation, of taking things – new experiences,
+new emotions – and applying them like so many polished tiles
+to what would someday be the marvellously finished pavilion of the self.""",
+"""He could find no answer, except life’s usual answer to the most
+complex and insoluble questions. That answer is: live in the needs
+of the day, that is, find forgetfulness.""",
+"""All men dream, but not equally. Those who dream
+by night in the dusty recesses of their minds wake in the day
+to find that it was vanity: but the dreamers of the day
+are dangerous men, for they may act their dreams with open eyes."""
+]
 TEXT = random.choice(sentences)   
 
 
@@ -122,3 +135,4 @@ meme_label.pack(pady=10)
 update_leaderboard_display()
 
 root.mainloop()
+
